@@ -1,0 +1,20 @@
+(Source 25 uitkering)
+
+Class Employee
+Str personeelnummer = afd
+Str name
+Datetime dob
+Datetime servicetime
+Int vakantiedagen
+Int afd
+
+Class form
+
+Input listbox(employees)
+
+If(empl.service => 10) vakantiedagen+3
+If(empl.age => 50) vakantiedagen+5
+If(empl.age > 54) vakantiedagen +(1*(age-54))
+
+Total=service+age50+age55
+
